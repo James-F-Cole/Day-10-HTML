@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            background-color: rgb(24, 23, 23);
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        header{
+            background-color:rgba(15, 18, 219, 0.514);
+            text-align: center;
+        }
+
+       .headtitle{
+            color: rgb(255, 255, 255);
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .maintitle{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            text-decoration: underline dotted yellow;
+            tex
+        }
+        .nav{
+            border: 2px solid rgb(255, 255, 255);
+            background-color: brown;
+            text-align: center;
+            a:link{
+            color: aliceblue;
+            text-decoration: none;
+            }
+
+            a:hover{
+                color: black;
+            }
+
+            a:active{
+                color: aquamarine;
+            }
+
+            a:visited{
+                color: red;
+                background-color: white;
+            }
+
+            a{
+                margin: 5%;
+            }
+        }
+
+        a:link{
+            color: aqua;
+        }
+        
+        .img1{
+            padding: 2%;
+            margin: 2%;
+            border: solid 4px whitesmoke;
+            display:inline;
+            width: 100px;
+            background-color: aqua;
+
+        }
+        .img2{
+            padding: 5%;
+            margin-left: 2%;
+            border: solid 4px rgb(37, 141, 189);
+            display:inline;
+            width: 100px;
+            height: auto;
+            background-color: antiquewhite;
+        }
+
+        .footer{
+            text-align: center;
+        }
+
+
+        .p1{
+            border: 2px solid white;
+            background-color: blue;
+        }
+        
+        .p2{
+            border: 2px solid white;
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="headtitle">Box Model</h1>
+        <div class="nav">
+            <nav>
+                <a href="#title1">Intro</a>
+                <a href="#img1">Image 1</a>
+                <a href="#img2">Image 2</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <h2 class="maintitle" id="title1">Box</h2>
+        <div class="p">
+            <p class="p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, animi explicabo numquam iure aliquam odio voluptatem laboriosam at itaque pariatur porro beatae est sapiente exercitationem! Tenetur sapiente illo ullam animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nostrum accusamus perferendis eveniet. Qui cupiditate explicabo nihil ex recusandae nulla ipsa, quibusdam perferendis repellendus reprehenderit aut velit nobis commodi blanditiis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, doloremque tempora laborum magni quidem quae, corporis saepe cupiditate voluptatibus voluptatem assumenda, animi cum similique illo numquam quod perferendis culpa facilis.</p>
+            <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus modi sint nihil, laboriosam doloremque delectus aut, quae velit sapiente atque saepe rerum aliquam, deserunt quo explicabo accusamus ipsum molestias rem! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, accusamus? Consectetur incidunt veniam iusto at doloremque, quam consequuntur nihil provident perferendis, sequi deleniti autem magnam aliquam veritatis nesciunt illum est.</p>
+        </div>
+        <img id="img1" class="img1" src="Assets/CartoonBoyOnLaptop.jpg" alt="Picture of Cartoon Boy On Laptop">
+        <img id="img2" class="img2" src="Assets/LaptopBoyWithHeadset.jpg" alt="Picture of Cartoon Boy On Laptop With Headset">
+    </main>
+    <hr>
+    <footer name="about" class="footer">
+        <div class="nav">
+            <nav>
+                <a href="#title1">Intro</a>
+                <a href="#img1">Image 1</a>
+                <a href="#img2">Image 2</a>
+                <a href="#footer">Contact</a>
+            </nav>
+        </div>
+        <p>You can contact me via <a href="mailto:colej7558@gmail.com">Email</a>.</p>
+        <p>Copyright 2025@JamesFCole</p>
+    </footer>
+</body>
+</html>
